@@ -5,6 +5,9 @@
 }
 body{
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
     padding: 20px 5%;
@@ -39,6 +42,14 @@ body{
 }
 .navbar .menu li a:hover{
     border-bottom: 4px solid red;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+main {
+    text-align: center;
+    padding: 20px;
 }
 .content{
     background-image: url(img1.jpg);
@@ -114,4 +125,15 @@ body{
     font-weight: 900;
     border: 1px solid red;
     border-radius: 20px;
+}
+.contact-info {
+    text-align: left;
+    margin-top: 20px;
+}
+.contact-info h2 {
+    color: #424144;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
 }
